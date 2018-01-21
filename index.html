@@ -3,16 +3,24 @@
 
 <head>
     <title>Fan Page (Assignment 1)</title>
+    <!-- Generic, Bootstrap and jQuery links -->
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <!-- Countdown timer -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+    <link rel="stylesheet" href="countdown/assets/css/styles.css" />
+    <link rel="stylesheet" href="countdown/assets/countdown/jquery.countdown.css" />
+    <!-- JavaScript for timer -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="countdown/assets/countdown/jquery.countdown.js"></script>
+    <script src="countdown/assets/js/script.js"></script>
+    <!--JS sheet-->
+    <script type="text/javascript" src="./javascript.js"></script>
 
 </head>
 
@@ -52,25 +60,12 @@
         <header>
             <!--jumbotron-->
             <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">Putting people on Mars</h1>
-                    <p class="lead">"SpaceX – insert quote here." - Some random online</p>
-
+                <div class="container jumbo">
+                    <h1 class="display-4">Falcon Heavy launch in T minus</h1>
+                    <div id="countdown"></div>
+                    <p id="note" class="lead "></p>
                 </div>
             </div>
         </header>
-
-
-        <!--bio-->
-        <div style="scaler">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-
 </body>

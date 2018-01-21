@@ -1,31 +1,39 @@
-.navbar {
-    background-color: #181C1F;
-    
-}
-
 .jumbotron {
     margin-bottom: 0rem;
-    opacity: 0.5;
+    background: rgba(233, 236, 239, 0.5) !important; 
+    width: 100vw;
 }
+
 
 .background {
-  background-image: url("./images/iridium.jpg");
+  background: url("./images/iridium.jpg") center center no-repeat;
   height:100vh;
+  width: 100%;
   background-size: cover;
   resize: both;
-  position: relative;
+  position: fixed;
 }
 
-body {
+h1 {
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#note {
+    color: black !important;
 }
 
 h5 {
     margin-top: 2.5rem !important;
 }
 
-#timeline.h1 {
+.about-p {
+    font-size: 0.7rem;
+}
+
+#timeline {
     font-family: Arial;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 
 }
 
@@ -57,7 +65,7 @@ h5 {
     float: left;
 }
 
-/* Timeline styling in development.html */
+/* Everything below is CSS for the timeline styling in "/development.html" */
 
 .timeline {
     list-style: none;

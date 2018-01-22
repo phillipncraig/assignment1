@@ -6,14 +6,14 @@ DONE - There must be a hyperlink between the about page and the home page
 DONE - The about page must feature the Band Bio from the class activity
 DONE (upcoming Launches) - The website must feature a music page
 DONE - There must be a hyperlink between the music page and the home page
-The music page must feature a responsive grid of albums
-DONE (Development timeline) - The website must feature a tour page
-DONE There must be a hyperlink between the tour page and the home page
-DONE The tour page must feature a table with your classmates' birthdays
-DONE There must be hyperlinks between the home page and each of the about, music, tour, pages
-DONE There must be hyperlinks between the each of the about, music, tour, pages and the home page
-DONE There should be hyperlinks between each of the about, music, tour pages
-DONE The primary style for the website must be defined in a file called styles.css
-DONE (heaps) The website may have page-specific styles in different stylesheets
-DONE (asusming Bootstrap and jQuery are frameworks?) The website must utilize at least one framework
-DONE The website must be responsive and display well on desktop, tablet, and phone screen sizes
+DONE - The music page must feature a responsive grid of albums
+DONE - (Development timeline) - The website must feature a tour page
+DONE - There must be a hyperlink between the tour page and the home page
+DONE - The tour page must feature a table with your classmates' birthdays
+DONE - There must be hyperlinks between the home page and each of the about, music, tour, pages
+DONE - There must be hyperlinks between the each of the about, music, tour, pages and the home page
+DONE - There should be hyperlinks between each of the about, music, tour pages
+DONE - The primary style for the website must be defined in a file called styles.css
+DONE (heaps) - The website may have page-specific styles in different stylesheets
+DONE (asusming Bootstrap and jQuery are frameworks?) - The website must utilize at least one framework
+DONE - The website must be responsive and display well on desktop, tablet, and phone screen sizes

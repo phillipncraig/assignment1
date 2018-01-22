@@ -4,8 +4,7 @@
     width: 100vw;
 }
 
-
-.background {
+.backgroundHome {
   background: url("./images/iridium.jpg") center center no-repeat;
   height:100vh;
   width: 100%;
@@ -34,29 +33,49 @@ h5 {
 #timeline {
     font-family: Arial;
     margin-top: 2rem;
-
 }
 
 .box1 {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
     width: 310px;
     height: 291px;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box2 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    width: 310px;
+    height: 291px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box1 > img {
+    max-width: 310px;
+    max-height: 291px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-link {
+    font-size: 1rem;
 }
 
 .content {
-    padding: .5rem 1rem;
+    padding: 0rem 1rem;
 }
 
 .box1 {
     margin-top: 1rem;
 }
 
-
 .leftCol {   
     border: solid 1px;
     width: 60% ;
     float: right;
-    
 }
 
 .rightCol {
